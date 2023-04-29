@@ -112,3 +112,16 @@ body {
     color: #000000;
     margin: 0;
 }
+
+.footer {
+    padding-top: 45px;
+    padding-bottom: 130px;
+    background-color: #1E4776;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
