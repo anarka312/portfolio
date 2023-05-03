@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header-title">Садыралиева Анаркан</h1>
         <p class="header-subtitle">Фрилансер, фронтенд разработчик, создание сайтов</p>
-        <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
+            
             <img src="./img/header/chevron-down.svg" alt="arrow">
-        </div>
+        </a>
     </header>
     <main>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="container">
                 <h1 class="portfolio-header">Портфолио</h1>
                 <div class="portolio-cards-wrapper">
@@ -82,5 +82,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="./libs/jquery/jquery-3.6.4.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

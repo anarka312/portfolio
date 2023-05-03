@@ -1,25 +1,33 @@
 @import "./project.css";
+@import "./media.css";
 
 * {
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
+   
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #556983;
-    background-image: url(./../img/header/header-bg.jpg);
+   
     background-size: cover;
     background-position: center;
     display: flex;
